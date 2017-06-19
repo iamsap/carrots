@@ -12,6 +12,8 @@ export class AppComponent {
   isLoading:boolean;
   carrots:Array<any>;
 
+  featuredCarrot:any;
+
   constructor(private carrotService:CarrotService) {
   }
 
@@ -21,6 +23,7 @@ export class AppComponent {
       .subscribe((carrots) => {
         this.isLoading = false;
         this.carrots = carrots;
+        this.featuredCarrot = carrots[ 0 ];
       })
   }
 

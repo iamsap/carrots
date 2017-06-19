@@ -1,106 +1,97 @@
 @import '../styles';
 
-md-sidenav-container {
-  height: 100vh;
-  md-sidenav {
-    .logo {
-      padding: 16px;
-      margin: auto;
-
-      h5 {
-        margin: 0px;
-        padding: 4px;
-        font-family: 'Roboto';
-      }
-
+.app-component {
+  .title-bar {
+    background: $grey-dark;
+    color: white;
+    text-align: center;
+    padding: $padding-sm;
+    > h1 {
+      display: inline-block;
+      font-size: $font-lg;
+      padding: 0px;
+      margin: 0px;
+      top: -4px;
+      position: relative;
     }
-  }
-
-  .mat-toolbar {
-    padding:0px;
-    min-height:inherit;
-
-    > .mat-toolbar-layout {
-      > .mat-toolbar-row {
-        background:mat-color($mat-grey, 700);
-        height:inherit;
-        > button {
-          min-width:inherit;
-          color:white;
-        }
-
-        svg {
-          margin:auto;
-        }
-
-        h5 {
-          margin:0px;
-          padding:0px;
-          color:white;
-          margin-right:auto;
-          margin-left:0px;
-        }
-      }
-    }
-  }
-
-  .main-banner {
-    background: mat-color($carrot-app-primary, 500);
-    height: 265px;
-    position:relative;
-    text-align:center;
 
     > svg {
-      margin-top:40px;
+      display: inline-block;
     }
+  }
 
-    .main-banner-text {
-      position:absolute;
-      width:400px;
-      top: 50%;
-      transform: translateY(-50%);
-      left:calc(50% - 200px);
+  .spotlight {
+    background:$orange;
+    clear: both;
+    width: 100%;
 
-      h2 {
+    .featured-carrot {
+      margin: auto;
+      width: 600px;
+      margin-bottom:$padding-lg;
+      padding:$padding-lg;
+
+      h3 {
         color:white;
-        padding:0px;
         margin:0px;
-        font-family: 'Roboto';
-        font-size:32px;
-        margin-bottom:16px;
+        padding:0px;
+        margin-bottom:$padding-md;
+      }
+
+      .img {
+        height: 200px;
+        background-size: cover;
+      }
+
+      h5 {
+        margin-bottom:0px;
+        padding-bottom:$padding-xs;
+        font-size:$font-lg;
+        > a {
+          color:#FFF3E0;
+        }
       }
 
       p {
-        font-size:12px;
-        color:white;
-        padding:0px;
         margin:0px;
-        font-family: 'Roboto';
-        line-height:18px;
+        padding:0px;
+        font-size:$font-sm;
+        color:white;
+      }
+    }
+  }
+
+  .products {
+    width:800px;
+    margin:auto;
+
+    .menu {
+      width:400px;
+      margin-right:$padding-lg;
+
+      ul {
+        list-style-type:none;
+        li {
+          margin-bottom:$padding-sm;
+        }
       }
     }
 
-  }
+    .products-grid {
 
-  .mat-tab-labels {
-    background:mat-color($mat-grey, 200);
-  }
+      .product {
+        float:left;
+        width:200px;
+        height:300px;
+        margin-right:$padding-md;
 
-
-  .container {
-
-    width:90%;
-    margin:auto;
-
-    md-card {
-      width:340px;
-      float:left;
-      margin-right:20px;
-      margin-bottom:20px;
+        .img {
+          height:200px;
+          width:200px;
+          background-size:cover;
+        }
+      }
     }
-
   }
 
 }
-
-// .mat-button, .mat-fab, .mat-icon-button, .mat-mini-fab, .mat-raised-button

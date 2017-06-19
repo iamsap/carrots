@@ -1,19 +1,31 @@
-@import '~@angular/material/theming';
-
-@include mat-core();
-
-
-$carrot-app-primary: mat-palette($mat-orange);
-$carrot-app-accent:  mat-palette($mat-grey);
-$carrot-app-warn:    mat-palette($mat-red);
-$carrot-app-theme: mat-light-theme($carrot-app-primary, $carrot-app-accent, $carrot-app-warn);
-
-@include angular-material-theme($carrot-app-theme);
-
 body {
   margin: 0px;
 }
 
 .flexbox {
   display:flex;
+}
+
+$font-xs:10px;
+$font-sm:12px;
+$font-md:14px;
+$font-lg:16px;
+$font-xl:20px;
+
+$padding-xs:4px;
+$padding-sm:8px;
+$padding-md:16px;
+$padding-lg:24px;
+$padding-xl:40px;
+
+$orange:#FF9800;
+
+$grey-dark:#424242;
+
+* {
+  font-family:Arial;
+}
+
+a, a:active {
+  color:#2196F3;
 }
