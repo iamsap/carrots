@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { AppComponent } from './app.component';
 import { CarrotService } from './services/carrot.service';
+
+
+import { MaterialModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { CarrotService } from './services/carrot.service';
     FormsModule,
     HttpModule,
 
+    MaterialModule,
     BrowserAnimationsModule
   ],
   providers: [CarrotService],
