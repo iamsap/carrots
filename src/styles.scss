@@ -7,6 +7,11 @@ body {
   display:flex;
 }
 
+.filler {
+  visibility: hidden;
+  flex-grow: 1;
+}
+
 $font-xs:10px;
 $font-sm:12px;
 $font-md:14px;
