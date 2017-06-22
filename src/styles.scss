@@ -1,6 +1,17 @@
-body {
-  margin: 0px;
-  background:#efefef;
+@import '~@angular/material/theming';
+@include mat-core();
+
+$carrot-app-primary: mat-palette($mat-orange);
+$carrot-app-accent:  mat-palette($mat-grey);
+$carrot-app-warn:    mat-palette($mat-red);
+$carrot-app-theme: mat-light-theme($carrot-app-primary, $carrot-app-accent, $carrot-app-warn);
+
+@include angular-material-theme($carrot-app-theme);
+
+html, body, material-app, md-sidenav-container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .flexbox {
@@ -31,8 +42,4 @@ $grey-dark:#424242;
 
 * {
   font-family:Arial;
-}
-
-a, a:active {
-  color:#2196F3;
 }
