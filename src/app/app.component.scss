@@ -20,6 +20,25 @@
     }
   }
 
+  #subnav {
+    list-style-type:none;
+    width:100%;
+    text-align:center;
+    padding:4px;
+    margin:0px;
+    background:$grey;
+    li {
+      display:inline;
+      margin-right:8px;
+      font-size:12px;
+      a {
+        text-decoration:none;
+        text-transform: uppercase;
+        color:white;
+      }
+    }
+  }
+
   .spotlight {
     background:$orange;
     clear: both;
