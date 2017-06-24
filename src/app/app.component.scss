@@ -1,1 +1,12 @@
 @import '../styles';
+
+.container {
+	margin:auto;
+	padding:$padding-lg;
+
+	md-card {
+		margin:auto;
+		width:400px;
+	}
+
+}

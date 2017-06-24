@@ -8,6 +8,12 @@ $carrot-app-theme: mat-light-theme($carrot-app-primary, $carrot-app-accent, $car
 
 @include angular-material-theme($carrot-app-theme);
 
+$padding-xs:4px;
+$padding-sm:8px;
+$padding-md:16px;
+$padding-lg:24px;
+$padding-xl:40px;
+
 html, body, material-app, md-sidenav-container {
   margin: 0;
   width: 100%;
@@ -22,4 +28,5 @@ html, body, material-app, md-sidenav-container {
   visibility: hidden;
   flex-grow: 1;
 }
+
 

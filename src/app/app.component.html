@@ -16,4 +16,23 @@
     <div class="filler"></div>
   </md-toolbar>
 
+  <div class="container">
+    <md-card *ngIf="featuredCarrot">
+        <md-card-header>
+          <div md-card-avatar [ngStyle]="{'background-image':'url(/assets/images/carrots.png)', 'background-size':'contain'}"></div>
+          <md-card-title>Today's Featured Carrot</md-card-title>
+          <md-card-subtitle>{{featuredCarrot.name}}</md-card-subtitle>
+        </md-card-header>
+      <img md-card-image src="{{featuredCarrot.imagePath}}" />
+      <md-card-content>
+          <p>{{featuredCarrot.description}}
+      </md-card-content>
+      <md-card-actions>
+          <button md-button>LIKE</button>
+          <button md-button>SHARE</button>
+      </md-card-actions>
+
+    </md-card>
+  </div>
+
 </md-sidenav-container>
