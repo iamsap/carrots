@@ -2,7 +2,7 @@
 @include mat-core();
 
 $carrot-app-primary: mat-palette($mat-orange);
-$carrot-app-accent:  mat-palette($mat-grey);
+$carrot-app-accent:  mat-palette($mat-light-green);
 $carrot-app-warn:    mat-palette($mat-red);
 $carrot-app-theme: mat-light-theme($carrot-app-primary, $carrot-app-accent, $carrot-app-warn);
 

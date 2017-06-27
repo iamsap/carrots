@@ -1,12 +1,43 @@
 @import '../styles';
 
-.container {
-	margin:auto;
-	padding:$padding-lg;
+md-sidenav-container {
 
-	md-card {
-		margin:auto;
-		width:400px;
+	.mat-sidenav-content {
+		md-toolbar {
+			md-toolbar-row {
+				color:white;	
+			}
+		
+		}	
+
+		> .container {
+			margin:auto;
+			padding:0px;
+
+
+			md-tab-group {
+				md-tab-header {
+					background:mat-color($carrot-app-primary, 700); 
+
+					.mat-tab-labels {
+						margin-left:80px;
+
+						.mat-tab-label {
+							color:white;
+							opacity:1;
+						}
+					}
+
+					.mat-ink-bar {
+						background-color:mat-color($carrot-app-accent, 200);
+					}
+				}
+			}
+
+		}
 	}
 
 }
+
+
+
