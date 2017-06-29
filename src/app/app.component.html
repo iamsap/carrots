@@ -18,20 +18,38 @@
 
   <div class="container">
 
-    <md-tab-group headerPosition="above" position="1">
-      <md-tab label="NEWEST">
-        <h1>Some tab content</h1>
-        <p>...</p>
-      </md-tab>
-      <md-tab label="ON SALE">
-        <h1>Some more tab content</h1>
-        <p>...</p>
-      </md-tab>
-      <md-tab label="ABOUT TO SPOIL">
-        <h1>Some more tab content</h1>
-        <p>...</p>
-      </md-tab>
-    </md-tab-group>
+   <h3>Application</h3>
+
+   <form>
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="text" name="email">
+      </div>
+
+      <div class="input-group">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone">
+      </div>
+
+      <div class="input-group">
+        <label for="preferredMethod">Preferred method of contact</label>
+        <select>
+          <option>Email</option>
+          <option>Phone</option>
+        </select>
+      </div>
+
+      <div class="input-group checkbox">
+        <label for="subscribe"><input type="checkbox" name="subscribe"> Subscribe to our mailing list</label>
+      </div>
+
+      <button>Submit</button>
+
+   </form>
 
   </div>
 

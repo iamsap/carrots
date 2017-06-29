@@ -29,4 +29,32 @@ html, body, material-app, md-sidenav-container {
   flex-grow: 1;
 }
 
+h1, h2, h3 {
+	font:500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+}
 
+p, label {
+	font-family:Roboto, "Helvetica Neue", sans-serif;
+	font-size:14px;
+}
+
+label {
+	/* display:block; */
+}
+
+input, select {
+	padding:4px;
+	border-radius:3px;
+	border:1px solid #ccc;
+	width:100%;
+	font-size:14px;
+	margin-bottom:16px;
+}
+
+form {
+	width:800px;
+	background-color:#efefef;
+	padding:24px;
+	margin:auto;
+	border-radius:5px;
+}

@@ -11,29 +11,25 @@ md-sidenav-container {
 		}	
 
 		> .container {
-			margin:auto;
-			padding:0px;
+			padding:40px;
+			h3 {
+				border-bottom:1px solid #ccc;
+			}
 
+			.input-group {
+				
+			}
 
-			md-tab-group {
-				md-tab-header {
-					background:mat-color($carrot-app-primary, 700); 
+			.input-group.checkbox {
+				label {
+					display:inline-flex;
+					width:100%;
 
-					.mat-tab-labels {
-						margin-left:80px;
-
-						.mat-tab-label {
-							color:white;
-							opacity:1;
-						}
-					}
-
-					.mat-ink-bar {
-						background-color:mat-color($carrot-app-accent, 200);
+					input {
+						width:20px;
 					}
 				}
 			}
-
 		}
 	}
 
