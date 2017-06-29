@@ -20,36 +20,33 @@
 
    <h3>Application</h3>
 
-   <form>
-      <div class="input-group">
-        <label for="name">Name</label>
-        <input type="text" name="name">
-      </div>
-      <div class="input-group">
-        <label for="email">Email</label>
-        <input type="text" name="email">
-      </div>
+  <form>
+    <md-input-container>
+      <input mdInput placeholder="Customer Name" value="">
+      <md-hint align="start">Your name</md-hint>
+    </md-input-container>
 
-      <div class="input-group">
-        <label for="phone">Phone</label>
-        <input type="text" name="phone">
-      </div>
+    <md-input-container>
+      <input mdInput placeholder="Phone" value="">
+      <md-hint align="start">Format: ### ###-####</md-hint>
+    </md-input-container>    
 
-      <div class="input-group">
-        <label for="preferredMethod">Preferred method of contact</label>
-        <select>
-          <option>Email</option>
-          <option>Phone</option>
-        </select>
-      </div>
+    <md-input-container>
+      <input mdInput placeholder="Email" value="">
+      <md-hint align="start">Example: info@iamsap.com</md-hint>
+    </md-input-container>    
 
-      <div class="input-group checkbox">
-        <label for="subscribe"><input type="checkbox" name="subscribe"> Subscribe to our mailing list</label>
-      </div>
+    <md-select placeholder="Preferred contact method">
+      <md-option value="Email">Email</md-option>
+      <md-option value="Phone">Phone</md-option>
+    </md-select>
 
-      <button>Submit</button>
+    <md-checkbox>Subscribe to our newsletter!</md-checkbox>
 
    </form>
+
+   <button md-raised-button color="primary">Submit</button>
+   <button md-button>Cancel</button>
 
   </div>
 

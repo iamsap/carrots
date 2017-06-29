@@ -11,25 +11,14 @@ md-sidenav-container {
 		}	
 
 		> .container {
+			width:800px;
 			padding:40px;
+			margin:auto;
+			
 			h3 {
 				border-bottom:1px solid #ccc;
 			}
 
-			.input-group {
-				
-			}
-
-			.input-group.checkbox {
-				label {
-					display:inline-flex;
-					width:100%;
-
-					input {
-						width:20px;
-					}
-				}
-			}
 		}
 	}
 

@@ -38,23 +38,28 @@ p, label {
 	font-size:14px;
 }
 
-label {
-	/* display:block; */
-}
-
-input, select {
-	padding:4px;
-	border-radius:3px;
-	border:1px solid #ccc;
-	width:100%;
-	font-size:14px;
-	margin-bottom:16px;
+* {
+	font-family:Roboto, "Helvetica Neue", sans-serif;
 }
 
 form {
+	margin-top:40px;
 	width:800px;
 	background-color:#efefef;
 	padding:24px;
 	margin:auto;
 	border-radius:5px;
+	margin-bottom:24px;
+}
+
+md-input-container, md-select {
+	width:100%;
+}
+
+md-input-container, md-select{
+	margin-bottom:24px;
+}
+
+md-select {
+	margin-top:16px;
 }
