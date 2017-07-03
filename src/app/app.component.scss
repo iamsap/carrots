@@ -6,6 +6,20 @@ md-sidenav-container {
 		md-toolbar {
 			md-toolbar-row {
 				color:white;	
+
+				.button-row {
+					> button {
+						width:inherit;
+						min-width:inherit;
+						md-icon {
+						}
+
+						md-icon:hover {
+							color:mat-color($carrot-app-primary, 100);
+						}
+					}
+				}
+			
 			}
 		
 		}	
