@@ -33,8 +33,10 @@
         position: absolute;
         width: 100%;
         text-align: center;
-        top: 50%;
+        margin:0px;
+        padding:0px;
       }
+
 
     }
 
@@ -46,8 +48,17 @@
 
       .link {
         color: white;
-        line-height: 32px;
         text-decoration: none;
+        margin:0px;
+        padding:0px;
+      }
+
+      p {
+        color:white;
+        padding:0px;
+        margin:0px;
+        font-size:12px;
+        font-weight:100;
       }
 
       .link:hover {

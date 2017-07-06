@@ -3,60 +3,85 @@
     "id":100,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot1.jpg",
     "name": "Bessie",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$3.83"
   },
   {
     "id":101,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot2.jpg",
     "name": "Beckett",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$2.37"
   },
   {
     "id":102,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot3.jpg",
     "name": "Miri",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$1.24"
   },
   {
     "id":103,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot4.jpg",
     "name": "Teigen",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$2.27"
   },
   {
     "id":104,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot5.jpg",
     "name": "Pike",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$2.34"
   },
   {
     "id":105,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot6.jpg",
     "name": "Orly",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$1.94"
   },
   {
     "id":106,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot7.jpg",
     "name": "Bracken",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$1.49"
   },
   {
     "id":107,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot8.jpg",
     "name": "Amory",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$2.08"
   },
   {
     "id":108,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot9.jpg",
     "name": "Adley",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$3.67"
   },
   {
     "id":109,
     "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot10.jpg",
     "name": "Flannery",
-    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet."
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$1.25"
+  },
+  {
+    "id":110,
+    "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot11.jpg",
+    "name": "Anais",
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$1.81"
+  },
+  {
+    "id":111,
+    "imagePath": "http://cdn.iamsap.com/courses/2017-angular2-material/carrots/carrot12.jpg",
+    "name": "Byron",
+    "description": "Duis tempus nibh et magna cursus, non dignissim enim euismod. Aliquam semper convallis aliquet.",
+    "price":"$2.07"
   }
+
 ]

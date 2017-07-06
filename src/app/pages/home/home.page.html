@@ -15,7 +15,11 @@
 
             </div>
             <div class="carrot-commands">
-              <a [routerLink]="'carrots/' + carrot.id" class="link">{{carrot.name}}</a>
+              <div class="carrot-commands-info">
+                <a [routerLink]="'carrots/' + carrot.id" class="link">{{carrot.name}}</a>
+                <p class="price">{{carrot.price}}</p>
+              </div>
+
               <div class="filler"></div>
               <button class="favorite" md-button color="accent">
                 <md-icon>favorite</md-icon>
