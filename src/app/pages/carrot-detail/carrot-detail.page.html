@@ -1,0 +1,29 @@
+<div class="product-detail">
+  <div class="loading" *ngIf="isLoading">
+    <md-progress-spinner mode="indeterminate" color="accent"></md-progress-spinner>
+  </div>
+
+  <div class="product-detail-container" *ngIf="!isLoading">
+
+    <md-card>
+      <md-card-header>
+        <div md-card-avatar></div>
+        <md-card-title>{{carrot.name}}</md-card-title>
+        <md-card-subtitle>Bakersfield, California</md-card-subtitle>
+      </md-card-header>
+      <img md-card-image src="{{carrot.imagePath}}">
+      <md-card-content>
+        <p>
+          {{carrot.description}}
+        </p>
+      </md-card-content>
+
+      <md-card-actions>
+        <button md-button color="accent" [routerLink]="['/checkout']"><md-icon>shopping_cart</md-icon> ADD TO CART</button>
+      </md-card-actions>
+
+    </md-card>
+
+  </div>
+
+</div>

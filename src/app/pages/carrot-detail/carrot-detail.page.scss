@@ -1,0 +1,28 @@
+@import '../../../styles';
+
+.product-detail {
+  background:mat-color($mat-grey, 100);
+  width:600px;
+  margin:auto;
+
+  .loading {
+
+    padding: 40px;
+
+    .mat-progress-spinner {
+      margin: auto;
+    }
+
+  }
+
+  md-card {
+    margin:auto;
+
+    div[md-card-avatar] {
+      background-image: url('/assets/images/carrots.png');
+      background-size: cover;
+    }
+
+  }
+
+}

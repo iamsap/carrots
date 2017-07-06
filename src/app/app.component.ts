@@ -1,5 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CarrotService } from './services/carrot.service';
+import { OverlayContainer } from '@angular/material';
+
 
 @Component({
   selector: 'app-root',
@@ -9,22 +11,7 @@ import { CarrotService } from './services/carrot.service';
 })
 export class AppComponent {
 
-  isLoading:boolean;
-  carrots:Array<any>;
-
-  featuredCarrot:any;
-
-  constructor(private carrotService:CarrotService) {
-  }
-
-  ngOnInit() {
-    this.isLoading = true;
-    this.carrotService.getCarrots()
-      .subscribe((carrots) => {
-        this.isLoading = false;
-        this.carrots = carrots;
-        this.featuredCarrot = carrots[ 0 ];
-      })
+  constructor() {
   }
 
 }

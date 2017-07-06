@@ -1,0 +1,33 @@
+<div class="home">
+  <md-tab-group position="0">
+    <md-tab label="One">
+
+      <div class="loading" *ngIf="isLoading">
+        <md-progress-spinner mode="indeterminate" color="accent"></md-progress-spinner>
+      </div>
+
+      <md-grid-list cols="4" *ngIf="!isLoading">
+
+        <md-grid-tile *ngFor="let carrot of carrots">
+
+          <div class="carrot-container">
+            <div class="carrot" [ngStyle]="{'background-image':'url(' + carrot.imagePath + ')'}">
+
+            </div>
+            <div class="carrot-commands">
+              <a [routerLink]="'carrots/' + carrot.id" class="link">{{carrot.name}}</a>
+              <div class="filler"></div>
+              <button class="favorite" md-button color="accent">
+                <md-icon>favorite</md-icon>
+              </button>
+            </div>
+          </div>
+
+        </md-grid-tile>
+      </md-grid-list>
+
+    </md-tab>
+    <md-tab label="Two"></md-tab>
+    <md-tab label="Three"></md-tab>
+  </md-tab-group>
+</div>

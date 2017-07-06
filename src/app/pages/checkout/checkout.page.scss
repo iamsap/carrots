@@ -1,0 +1,35 @@
+@import '../../../styles';
+
+.checkout {
+  background:mat-color($mat-grey, 100);
+  width:600px;
+  margin:auto;
+
+  md-card {
+    margin:auto;
+
+    div[md-card-avatar] {
+      background-image: url('/assets/images/carrots.png');
+      background-size: cover;
+    }
+
+    form {
+      padding:8px;
+
+      md-input-container, md-select {
+        width:100%;
+      }
+
+      md-select {
+
+      }
+
+      md-checkbox {
+        padding-top:16px;
+        display:block;
+      }
+    }
+
+  }
+
+}
