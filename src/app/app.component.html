@@ -7,6 +7,18 @@
         <a routerLink=""><md-icon>home</md-icon> Home</a>
       </md-list-item>
 
+      <md-list-item>
+        <a routerLink="/checkout"><md-icon>shopping_cart</md-icon> Checkout</a>
+      </md-list-item>
+
+      <md-list-item>
+        <a routerLink="/coupon"><md-icon>receipt</md-icon> Coupon</a>
+      </md-list-item>
+
+      <md-list-item>
+        <a routerLink="/help"><md-icon>help</md-icon> Help</a>
+      </md-list-item>
+
     </md-list>
 
   </md-sidenav>
@@ -16,7 +28,10 @@
     <div class="filler"></div>
     <div class="nav-icons">
       &nbsp;
-      <button md-button><md-icon>shopping_cart</md-icon></button>
+      <button md-button routerLink="" mdTooltip="Home"><md-icon>home</md-icon></button>
+      <button md-button routerLink="/coupon" mdTooltip="Coupon"><md-icon>receipt</md-icon></button>
+      <button md-button routerLink="/checkout" mdTooltip="Checkout"><md-icon>shopping_cart</md-icon></button>
+      <button md-button routerLink="/help" mdTooltip="Help"><md-icon>help</md-icon></button>
     </div>
 
 

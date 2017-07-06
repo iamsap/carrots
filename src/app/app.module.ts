@@ -14,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { CarrotDetailPage } from './pages/carrot-detail';
 import { CheckoutPage } from './pages/checkout';
+import { CouponDialogComponent } from './components/coupon-dialog';
+import { CouponPage } from './pages/coupon';
 import { HomePage } from './pages/home';
 
 import { CarrotService } from './services/carrot.service';
@@ -24,6 +26,8 @@ import { ROUTES } from './app.routes';
     AppComponent,
     CarrotDetailPage,
     CheckoutPage,
+    CouponDialogComponent,
+    CouponPage,
     HomePage
   ],
   imports: [
@@ -36,6 +40,7 @@ import { ROUTES } from './app.routes';
     BrowserAnimationsModule
   ],
   providers: [CarrotService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [CouponDialogComponent]
 })
 export class AppModule { }

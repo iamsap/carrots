@@ -18,7 +18,6 @@
 
     a:hover {
       color:mat-color($carrots-app-accent);
-      text-decoration:underline;
     }
   }
 
@@ -36,8 +35,11 @@
           width:inherit;
           max-width:inherit;
           color:white;
+          padding:0px 8px;
+
           md-icon {
             color:mat-color($carrots-app-primary, A100);
+            font-size:20px;
           }
         }
       }
